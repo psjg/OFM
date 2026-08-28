@@ -18,8 +18,8 @@ Org Flavoured Markdown
 ** Further horizons:
 8. This would be stage 2 (7. would be stage 1), we can integrate innovations of various dialects like obsidian('s wikilinks), logseq('s blocks and properties), jekkyll('s YAML frontmatter) flavoured markdowns.
 
-* Plan
-1. [ ] ~git clone https://https.git.savannah.nongnu.org/git/org-mode.git~ to a submodule.
+* TODO Plan [/]
+1. [X] ~git submodule add https://https.git.savannah.nongnu.org/git/org-mode.git org-mode~.
 2. [ ] Build a spec that we can target, there is no official spec, there only is a reference implementation -- we already have:
   1. https://orgmode.org/worg/org-syntax.html
   2. https://karl-voit.at/2021/11/27/orgdown/
