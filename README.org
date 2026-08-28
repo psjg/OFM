@@ -1,0 +1,30 @@
+#+TITLE: Org Flavoured Markdown
+#+AUTHOR: PSJ
+#+OPTIONS: toc:nil
+* OFM
+Org Flavoured Markdown
+
+** Facts:
+1. Emacs org-mode is great.
+2. org-mode never really left the emacs ecosystem.
+3. Markdown has escaped its own system and became really popular.
+4. Support for (various dialects of) markdown around the block is way better all around.
+5. I (and probably others as well) long for the power of emacs and org-mode in markdown.
+6. Nothing precludes us writing an emacs major mode, that has all the functionality of org-mode, but is backed by markdown.
+
+** Conclusion
+7. We can vibespike an alternative implmentation of org-mode which is backed by markdown syntax instead of classic org-mode syntax.
+
+** Further horizons:
+8. This would be stage 2 (7. would be stage 1), we can integrate innovations of various dialects like obsidian('s wikilinks), logseq('s blocks and properties), jekkyll('s YAML frontmatter) flavoured markdowns.
+
+* Plan
+1. [ ] ~git clone https://https.git.savannah.nongnu.org/git/org-mode.git~ to a submodule.
+2. [ ] Build a spec that we can target, there is no official spec, there only is a reference implementation -- we already have:
+  1. https://orgmode.org/worg/org-syntax.html
+  2. https://karl-voit.at/2021/11/27/orgdown/
+  3. https://orgmode.org/worg/
+3. [ ] Build a spec and grammar for OFM.
+4. [ ] Build a roadmap for features to implement.
+5. [ ] Write testssuite for that roadmap.
+6. [ ] Go implement the reference implementation in literate e-lisp with org-mode and babel.

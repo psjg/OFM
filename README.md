@@ -1,2 +1,0 @@
-# OFM
-Org Flavoured Markdown
