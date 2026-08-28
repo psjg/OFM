@@ -1,0 +1,13 @@
+* what we have to do
+Build a spec that we can target, there is no official spec, there only is a reference implementation -- we already have:
+1. https://orgmode.org/worg/org-syntax.html
+2. https://karl-voit.at/2021/11/27/orgdown/
+3. https://orgmode.org/worg/
+
+** steps
+1. Look at those sources ourselves?
+2. Have agents do research and construct a plan from that?
+3. Have agents implement a formal spec according to that plan.
+4. Make the agents write and verify the missing formal grammar.
+5. Make humans verify the grammar.
+6. Go to the next phase.
